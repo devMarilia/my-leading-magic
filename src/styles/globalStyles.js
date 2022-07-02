@@ -20,19 +20,30 @@ const GlobalStyle = createGlobalStyle`
     --fonte-principal: Open-Sans, Helvetica, Sans-Serif;
   }
     * {
-    box-sizing: border-box;
+      box-sizing: border-box;
     }
     a {
-    text-decoration: none;
+      text-decoration: none;
     }
     a:hover {
-    text-decoration: none;
+      text-decoration: none;
     }
     ul {
-    list-style: none;
+      list-style: none;
     }
     li {
-    list-style: none;
+      list-style: none;
+    }
+    //h1 banner
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--color-primary);
+    }
+    section {
+      max-width: 980px;
+      background-color: red ;
     }
 `;
 
