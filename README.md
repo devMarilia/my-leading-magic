@@ -14,7 +14,11 @@
 
 ### Instalações e dependências
 
-``` npm install styled-components ```
+``` 
+npm install styled-components 
+npm install react-router-dom
+
+```
 
 <br><br>
 

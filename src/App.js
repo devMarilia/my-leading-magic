@@ -1,14 +1,11 @@
-import { Fragment } from 'react';
-import Menu from './components/Menu/Menu';
-import GlobalStyle from './styles/globalStyles';
+import { BrowserRouter } from "react-router-dom";
+import MainRoutes from "./pages/routes";
 
 function App() {
   return (
-    <Fragment>
-        <GlobalStyle/>
-        <Menu/>
-    </Fragment>
+    <BrowserRouter>
+      <MainRoutes/>
+    </BrowserRouter>
   );
 }
-
 export default App;
