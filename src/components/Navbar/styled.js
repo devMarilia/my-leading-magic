@@ -6,13 +6,13 @@ export const NavbarConteiner = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary);
-  border-bottom: 1px solid var(--text-color-secondary) ;
 
   .logo {
     font-weight: 700;
     font-size: 21px;
     margin: 15px;
-    color: var(--text-color-secondary);
+    width: 10px;
+    color: var(--text-color-primary);
   }
   .nav-items a {
     color: var(--text-color-secondary);

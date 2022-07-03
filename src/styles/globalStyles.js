@@ -34,6 +34,10 @@ const GlobalStyle = createGlobalStyle`
     li {
     list-style: none;
     }
+  
+    
 `;
 
+
 export default GlobalStyle;
+
