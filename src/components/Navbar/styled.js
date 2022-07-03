@@ -6,7 +6,6 @@ export const NavbarConteiner = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary);
-  border-bottom: 1px solid var(--text-color-secondary) ;
 
   .logo {
     font-weight: 700;
