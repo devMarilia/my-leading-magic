@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <NavbarConteiner>
-        <span className="logo">Logo</span>
+        <span className="logo">Magic Code</span>
         <div className={`nav-items ${isOpen && "open"}`}>
             <Link to='/' >Home</Link>
             <Link to='/about' >About</Link>

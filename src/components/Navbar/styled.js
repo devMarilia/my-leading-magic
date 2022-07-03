@@ -11,7 +11,8 @@ export const NavbarConteiner = styled.header`
     font-weight: 700;
     font-size: 21px;
     margin: 15px;
-    color: var(--text-color-secondary);
+    width: 10px;
+    color: var(--text-color-primary);
   }
   .nav-items a {
     color: var(--text-color-secondary);
