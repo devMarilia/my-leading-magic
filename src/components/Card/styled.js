@@ -13,7 +13,6 @@ export const ContainerCard = styled.div`
     
   }
   .content-card {
-    //styled card
     background-color: var(--color-tertiary);
     width: 13rem;
     height: 20rem;
@@ -24,31 +23,26 @@ export const ContainerCard = styled.div`
     padding: 1rem;
     margin: 1rem;
     .card {
-      //styled card
+   
       height: 20rem;
       width: 100%;
-      /* display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: flex-start; */
+   
       display: flex;
       justify-content: center;
       flex-direction: column;
     }
     .card img {
-      //styled card image
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
     .card strong {
-      //styled card title
+
       font-size: 1rem;
       font-weight: 400;
       color: #434343;
     }
     .card button {
-      //styled card button
       background-color: var(--color-primary);
       border: 1px solid #434343;
       color: #434343;
