@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerBigCard = styled.section`
-  width: 100%;
-  height: 100vh;
-  padding: 20px;
+  
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -63,6 +61,7 @@ export const ContainerBigCard = styled.section`
       color: var(--color-primary);
     }
   }
+
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column-reverse;
@@ -76,21 +75,22 @@ export const ContainerBigCard = styled.section`
       margin: 1rem;
     }
     .big-card {
-      width: 480px;
+     width: 17.875rem;
     }
     .big-card-info {
       margin: 1rem;
+
+    width: 17.875rem;
+
     }
+    .big-card-content {{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+    }
+
   }
 
-  @media (max-width: 500px) {
-    width: 100%;
 
-    .content-big-card {
-      display: flex;
-      flex-direction: column;
-      margin: 1rem;
-      width: 80%;
-    }
-  }
 `;
