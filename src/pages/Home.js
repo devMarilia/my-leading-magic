@@ -1,5 +1,6 @@
 // import { Link } from 'react-router-dom';
 import Banner from '../components/Banner';
+import BigCard from '../components/BigCard';
 import Carroussel from '../components/Carroussel';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
      <Banner /> 
      <Carroussel/>
+     <BigCard/>
            {/* <Link to='/about' className='btn'>
         About
       </Link> */}
