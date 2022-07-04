@@ -8,12 +8,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: Open-Sans, Helvetica, Sans-Serif;
+    
   }
  
   #root {
     --color-primary: #fff ;
     --color-secondary: #DB7093;
-    --color-tertiary: #fafafa;
+    --color-tertiary: #EBBDB7;
     --color-quaternary:#FFB6C1;
     --text-color-primary: #FFB6C1;
     --text-color-secondary: #434343;
@@ -34,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
     li {
     list-style: none;
     }
-  
+  }
     
 `;
 

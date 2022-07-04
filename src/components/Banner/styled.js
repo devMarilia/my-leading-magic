@@ -37,7 +37,7 @@ export const ContainerBanner = styled.section`
   .info-banner h1 {
     font-size: 3rem;
     font-weight: 400;
-    color: var( --color-tertiary) ;
+    color: var(--color-primary) ;
     margin-bottom: 1rem;
   }
   @media  (max-width: 700px) {
