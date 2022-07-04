@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContainerBigCard = styled.section`
-  
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -92,5 +91,5 @@ export const ContainerBigCard = styled.section`
 
   }
 
-
+  
 `;
