@@ -89,7 +89,20 @@ export const ContainerCarroussel = styled.section`
     border: none;
     cursor: pointer;
   }
+  .fas .fa-chevron-left {
+    color: #00a8fb;
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  .fas .fa-chevron-right {
+    color: #00a8fb;
+    font-size: 2rem;
+    margin-left: 10px;
+  }
   .content .buttons button:first-child img {
     transform: rotate(180deg);
+  }
+  @media (max-width: 768px) {
+    margin-top: 2rem ;
   }
 `;

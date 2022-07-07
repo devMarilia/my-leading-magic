@@ -41,10 +41,11 @@ function Carroussel() {
         </div>
         <div className="buttons">
           <button onClick={handleLeftClick}>
-            <img src="/src/images/216151_right_chevron_icon.png" alt="Scroll Left" />
+            <img src="https://www.flaticon.com/free-icon/arrow-right_318091#term=right%20arrow&page=1&position=1" alt="Scroll Right" />
           </button>
           <button onClick={handleRightClick}>
-            <img src="/src/assets/images/216151_right_chevron_icon.png" alt="Scroll Right" />
+           
+            <img src="https://www.flaticon.com/free-icon/arrow-right_318091#term=right%20arrow&page=1&position=1" alt="Scroll Right" />
           </button>
         </div>
       </div>
