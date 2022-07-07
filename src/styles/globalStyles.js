@@ -10,6 +10,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: Open-Sans, Helvetica, Sans-Serif;
     
   }
+  body {
+    overflow: overlay;
+  }
  
   #root {
     --color-primary: #fff ;
@@ -19,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     --text-color-primary: #FFB6C1;
     --text-color-secondary: #434343;
     --text-color-tertiary: #000000;
-    --background-footer: #901742;
+    --background-color-footer: #901742;
     --fonte-principal: Open-Sans, Helvetica, Sans-Serif;
   }
   
