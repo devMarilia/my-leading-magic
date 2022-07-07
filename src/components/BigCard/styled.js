@@ -89,7 +89,9 @@ export const ContainerBigCard = styled.section`
 
     }
 
-  }
+    .big-card-button {
+      width: 100%;
+    }
 
   
 `;
