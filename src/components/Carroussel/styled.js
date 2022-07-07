@@ -89,16 +89,12 @@ export const ContainerCarroussel = styled.section`
     border: none;
     cursor: pointer;
   }
-  .fas .fa-chevron-left {
-    color: #00a8fb;
-    font-size: 2rem;
-    margin-right: 10px;
-  }
-  .fas .fa-chevron-right {
-    color: #00a8fb;
-    font-size: 2rem;
-    margin-left: 10px;
-  }
+svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--background-color-footer);
+
+}
   .content .buttons button:first-child img {
     transform: rotate(180deg);
   }
