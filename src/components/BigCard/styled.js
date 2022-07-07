@@ -88,7 +88,7 @@ export const ContainerBigCard = styled.section`
           object-fit: cover;
 
     }
-
+  }
     
 
   
