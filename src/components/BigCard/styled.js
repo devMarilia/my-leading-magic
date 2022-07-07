@@ -82,14 +82,14 @@ export const ContainerBigCard = styled.section`
     width: 17.875rem;
 
     }
-    .big-card-content {{
+    .big-card-content {
           width: 100%;
           height: 100%;
           object-fit: cover;
 
     }
 
-   
+    
 
   
 `;
