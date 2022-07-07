@@ -1,5 +1,6 @@
 import React, { useEffect , useState, useRef}from 'react'
 import { ContainerCarroussel } from './styled'
+import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa';
 
 function Carroussel() {
     const [data, setData] = useState([]);
@@ -41,10 +42,10 @@ function Carroussel() {
         </div>
         <div className="buttons">
           <button onClick={handleLeftClick}>
-            <img src="/src/images/216151_right_chevron_icon.png" alt="Scroll Left" />
+            <FaAngleDoubleLeft/>
           </button>
           <button onClick={handleRightClick}>
-            <img src="/src/assets/images/216151_right_chevron_icon.png" alt="Scroll Right" />
+            <FaAngleDoubleRight/>
           </button>
         </div>
       </div>

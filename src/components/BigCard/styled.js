@@ -42,7 +42,7 @@ export const ContainerBigCard = styled.section`
     margin-bottom: 1rem;
   }
   .big-card-info p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   .big-card-button {
@@ -50,7 +50,7 @@ export const ContainerBigCard = styled.section`
     border: 1px solid var(--color-primary);
     color: var(--color-tertiary);
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 5px;
     cursor: pointer;

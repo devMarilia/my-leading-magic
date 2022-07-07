@@ -89,7 +89,16 @@ export const ContainerCarroussel = styled.section`
     border: none;
     cursor: pointer;
   }
+svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--background-color-footer);
+
+}
   .content .buttons button:first-child img {
     transform: rotate(180deg);
+  }
+  @media (max-width: 768px) {
+    margin-top: 2rem ;
   }
 `;
